@@ -1,0 +1,51 @@
+
+.box {
+    width: 80pc;
+    height: 22pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #505061;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box .rep {
+    width: 15pc;
+    height: 2pc;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.box .rep-computer {
+    background: bisque;
+}
+.box .rep-player {
+    background: red;
+}
+.box .name-box {
+    background: rgb(135, 135, 230);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 50pc;
+}
+.box .name-box .name {
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box .score-box {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 50pc;
+}
+.box .msg-box {
+    width: 50pc;
+    background: rgb(231, 230, 230);
+    height: 100px;
+}

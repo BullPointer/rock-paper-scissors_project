@@ -68,4 +68,4 @@ function game() {
         console.log("Result: It's a Draw");
     }
 }
-game();
+// game();
