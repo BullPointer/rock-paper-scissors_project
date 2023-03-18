@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="rps-css-folder/rps-box.css">
     <link rel="stylesheet" href="rps-css-folder/rps-player.css">
-    <link rel="stylesheet" href="rps-css-folder/rps-computer.css">
     <link rel="stylesheet" href="rps-css-folder/rps-header.css">
     <title>Document</title>
 </head>
@@ -18,11 +17,6 @@
     </div>
     <div class="box">
         <div class="rep-computer rep">Computer</div>
-        <div class="computer-btn">
-            <div class="rock-btn btn">ROCK</div>
-            <div class="paper-btn btn">PAPER</div>
-            <div class="scissors-btn btn">SCISSORS</div>
-        </div>
         <div class="name-box">
             <div class="computer-name name">Computer </div>
             <div class="empty-name name"></div>
@@ -31,18 +25,25 @@
         <div class="score-box">
             <div class="computer-score score">0 </div>
             <div class="empty-score score"></div>
-            <div class="player-score score">1</div>
+            <div class="player-score score">0</div>
         </div>
-        <div class="msg-box"></div>
+        <div style="text-align: center;" class="msg-box">
+            <div class="info-msg">Let's Dance!!!</div> 
+            <h3 class="msg"></h3>
+        </div>
         <div class="player-btn">
-            <div class="rock-btn btn">ROCK</div>
-            <div class="paper-btn btn">PAPER</div>
-            <div class="scissors-btn btn">SCISSORS</div>
+            <button class="rock-btn btn play-btn">ROCK</button>
+            <button class="paper-btn btn play-btn">PAPER</button>
+            <button class="scissors-btn btn play-btn">SCISSORS</button>
         </div>
         <div class="rep-player rep">Player</div>
     </div>
 
-    <script src="style.js"></script>
+    <script src="rps-js-folder/player-choice.js"></script>
+    <script src="rps-js-folder/computer-choice.js"></script>
+    <script src="rps-js-folder/play-round.js"></script>
+    <script src="rps-js-folder/score.js"></script>
+    <script src="rps-js-folder/winner.js"></script>
     <script src="index.js"></script>
 </body>
 </html>

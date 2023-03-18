@@ -1,0 +1,5 @@
+    /*
+    console.log("Player Score ", player_score);
+    console.log("Computer Score ", computer_score);
+    console.log("Drawn Point ", drawn_points);
+    */
