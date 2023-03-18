@@ -1,7 +1,9 @@
 /* Code goes here */
 
+.box .btn:hover {
+    cursor: grabbing;
+}
 .box .player-btn {
-    color: white;
     width: 50pc;
     height: 40px;
     display: flex;

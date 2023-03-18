@@ -47,5 +47,23 @@
 .box .msg-box {
     width: 50pc;
     background: rgb(231, 230, 230);
-    height: 100px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .msg-box .play-again {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    width: 200px;
+    height: 20px;
+    background: rgb(185, 172, 172);
+    padding-top: 3px;
+    display: none;
+}
+.box .msg-box .play-again:hover {
+    cursor: pointer;
 }

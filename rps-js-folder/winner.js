@@ -10,6 +10,7 @@ function winner(player_score, computer_score, player_btn) {
         setTimeout(() => {
             info_msg.textContent = "Congratulations!!!";
             msg.textContent = "Player Wins";
+            replay();
         }, 3000);
     }; 
     if (Number(computer_score.textContent) == 3) {
@@ -19,6 +20,7 @@ function winner(player_score, computer_score, player_btn) {
         setTimeout(() => {
             info_msg.textContent = "Better luck next time...";
             msg.textContent = "Computer Wins";
+            replay();
         }, 3000);
     };
 }
